@@ -8,7 +8,7 @@ title: Home
     <h1 class="hero-name">Haolin Yang</h1>
     <p class="hero-name-cn">杨 昊 霖</p>
     <p class="hero-title">
-        <i class="fas fa-graduation-cap"></i> 北京大学 · 智能科学与技术专业 本科生
+        <i class="fas fa-graduation-cap"></i> Undergraduate @ Peking University, School of Intelligence Science and Technology
     </p>
     <div class="hero-links">
         <a href="mailto:your_email@pku.edu.cn" class="hero-link">
@@ -45,7 +45,7 @@ Currently, I am working on:
     <span class="interest-tag"><i class="fas fa-layer-group"></i> Multimodal Learning</span>
 </div>
 
-I have built **NavSpace**, a comprehensive benchmark for evaluating the spatial intelligence of navigation agents, featuring 1200+ trajectories across six major categories of spatial reasoning abilities.
+I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me at the Qiudebei Gym! I also enjoy playing mobile games like Hearthstone, Honor of Kings, Clash of Clans, and PUBG. Feel free to chat with me!
 
 ---
 
@@ -53,20 +53,12 @@ I have built **NavSpace**, a comprehensive benchmark for evaluating the spatial 
 
 <div class="news-timeline">
     <div class="news-item">
-        <span class="news-date">2025.11</span>
-        <p class="news-content">🎯 Continuing development of NavSpace benchmark with enhanced spatial reasoning tasks.</p>
-    </div>
-    <div class="news-item">
         <span class="news-date">2025.09</span>
-        <p class="news-content">📊 Completed data collection: 1200+ navigation trajectories and instructions collected.</p>
+        <p class="news-content">NavSpace: How navigation agents follow spatial intelligent instructions was delivered to ICRA2026!</p>
     </div>
     <div class="news-item">
         <span class="news-date">2024.12</span>
-        <p class="news-content">🔬 Started Sim2Sim evaluation of VLNCE models on HM3D environments.</p>
-    </div>
-    <div class="news-item">
-        <span class="news-date">2024.06</span>
-        <p class="news-content">🚀 Initiated NavSpace project - A benchmark for spatial intelligence in navigation.</p>
+        <p class="news-content">Initiated NavSpace project - A benchmark for spatial intelligence in navigation.</p>
     </div>
 </div>
 
@@ -77,67 +69,105 @@ I have built **NavSpace**, a comprehensive benchmark for evaluating the spatial 
 <div class="project-grid">
     <div class="project-card">
         <div class="project-header">
-            <h3 class="project-title">NavSpace Benchmark</h3>
-            <span class="project-status">In Progress</span>
+            <h3 class="project-title">
+                <a href="https://arxiv.org/abs/2510.08173" target="_blank" style="color: inherit; text-decoration: none;">
+                    NavSpace Benchmark
+                    <i class="fas fa-external-link-alt" style="font-size: 0.7em; margin-left: 6px;"></i>
+                </a>
+            </h3>
+            <span class="project-status">Published</span>
         </div>
         <p class="project-description">
-            A comprehensive benchmark for evaluating the <strong>spatial intelligence</strong> of navigation agents. NavSpace systematically tests agents' abilities in spatial reasoning, including distance estimation, direction understanding, object relationships, and route planning.
+            Instruction-following navigation is a key step toward embodied intelligence. Prior benchmarks mainly focus on semantic understanding but overlook systematically evaluating navigation agents' spatial perception and reasoning capabilities. In this work, we introduce the <strong>NavSpace</strong> benchmark, which contains six task categories and 1,228 trajectory-instruction pairs designed to probe the spatial intelligence of navigation agents. On this benchmark, we comprehensively evaluate 22 navigation agents, including state-of-the-art navigation models and multimodal large language models. The evaluation results lift the veil on spatial intelligence in embodied navigation. Furthermore, we propose <strong>SNav</strong>, a new spatially intelligent navigation model. SNav outperforms existing navigation agents on NavSpace and real robot tests, establishing a strong baseline for future work.
         </p>
         <div class="project-stats">
             <div class="stat-item">
-                <span class="stat-value">1200+</span>
+                <span class="stat-value">1,228</span>
                 <span class="stat-label">Trajectories</span>
             </div>
             <div class="stat-item">
                 <span class="stat-value">6</span>
-                <span class="stat-label">Ability Categories</span>
+                <span class="stat-label">Task Categories</span>
             </div>
             <div class="stat-item">
-                <span class="stat-value">HM3D</span>
-                <span class="stat-label">Environment</span>
+                <span class="stat-value">22</span>
+                <span class="stat-label">Agents Evaluated</span>
             </div>
         </div>
         <div class="project-tags">
             <span class="project-tag">VLN</span>
             <span class="project-tag">Spatial Reasoning</span>
             <span class="project-tag">Benchmark</span>
+            <span class="project-tag">ICRA 2026</span>
         </div>
+        <p style="margin-top: 1rem;">
+            <a href="https://arxiv.org/abs/2510.08173" target="_blank" class="hero-link" style="display: inline-flex;">
+                <i class="fas fa-file-pdf"></i>
+                View Paper on arXiv
+            </a>
+        </p>
     </div>
 </div>
-
-<p class="text-center mt-lg">
-    <a href="{{ '/projects' | relative_url }}" class="hero-link">
-        <i class="fas fa-arrow-right"></i>
-        查看全部项目
-    </a>
-</p>
 
 ---
 
-## <i class="fas fa-search"></i> Research Interests
+## <i class="fas fa-trophy"></i> Honors & Awards
 
 <div class="content-card">
-    <div class="card-icon">
-        <i class="fas fa-robot"></i>
-    </div>
-    <h4>Embodied AI & Navigation</h4>
-    <p>Developing intelligent agents that can navigate complex 3D environments using natural language instructions. Focusing on Vision-and-Language Navigation (VLN) tasks in realistic indoor environments like HM3D and Matterport3D.</p>
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); width: 35%; font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2024 - 2025</td>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Huawei Scholarship</strong>, Peking University</td>
+        </tr>
+        <tr>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2024 - 2025</td>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Excellent Research Award</strong>, Peking University</td>
+        </tr>
+        <tr>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2023 - 2024</td>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Shenzhen Stock Exchange Scholarship</strong></td>
+        </tr>
+        <tr>
+            <td style="padding: 0.75rem 0; font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2023 - 2024</td>
+            <td style="padding: 0.75rem 0;"><strong>Excellent Research Award</strong>, Peking University</td>
+        </tr>
+    </table>
 </div>
 
-<div class="content-card">
-    <div class="card-icon">
-        <i class="fas fa-brain"></i>
-    </div>
-    <h4>Spatial Intelligence</h4>
-    <p>Understanding and evaluating how AI agents perceive and reason about spatial relationships. Building systematic benchmarks to measure spatial reasoning capabilities across multiple dimensions.</p>
-</div>
+---
+
+## <i class="fas fa-language"></i> Language Proficiency
 
 <div class="content-card">
-    <div class="card-icon">
-        <i class="fas fa-layer-group"></i>
+    <div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 200px;">
+            <h4 style="margin: 0 0 0.5rem 0; color: var(--primary-color);">
+                <i class="fas fa-globe-americas" style="margin-right: 8px;"></i>
+                TOEFL iBT
+            </h4>
+            <p style="font-size: 2.5rem; font-weight: 700; color: var(--accent-color); margin: 0; font-family: var(--font-mono);">114</p>
+        </div>
+        <div style="flex: 2; min-width: 280px;">
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;">
+                <div style="background: var(--bg-secondary); padding: 0.75rem 1rem; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Reading</div>
+                    <div style="font-size: 1.25rem; font-weight: 600; color: var(--primary-color);">30</div>
+                </div>
+                <div style="background: var(--bg-secondary); padding: 0.75rem 1rem; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Listening</div>
+                    <div style="font-size: 1.25rem; font-weight: 600; color: var(--primary-color);">30</div>
+                </div>
+                <div style="background: var(--bg-secondary); padding: 0.75rem 1rem; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Speaking</div>
+                    <div style="font-size: 1.25rem; font-weight: 600; color: var(--primary-color);">27</div>
+                </div>
+                <div style="background: var(--bg-secondary); padding: 0.75rem 1rem; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Writing</div>
+                    <div style="font-size: 1.25rem; font-weight: 600; color: var(--primary-color);">27</div>
+                </div>
+            </div>
+        </div>
     </div>
-    <h4>Multimodal Learning</h4>
-    <p>Exploring the intersection of vision and language in AI systems. Interested in how large multimodal models can be applied to embodied tasks and real-world scenarios.</p>
 </div>
 
 ---

@@ -18,3 +18,7 @@ Thumbs.db
 *.swp
 *.swo
 
+# 
+#       cd C:\Users\danny\Desktop\Junior\profile\TidalHarley.github.io-main\TidalHarley.github.io-main
+#       git remote add origin https://github.com/TidalHarley/TidalHarley.github.io.git
+#       git push -f origin main

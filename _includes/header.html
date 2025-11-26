@@ -6,7 +6,7 @@
                 <span class="logo-chinese">杨昊霖</span>
             </a>
             
-            <button class="nav-toggle" aria-label="切换导航">
+            <button class="nav-toggle" aria-label="Toggle Navigation">
                 <span class="hamburger"></span>
             </button>
             
@@ -14,29 +14,30 @@
                 <li class="nav-item">
                     <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">
                         <i class="fas fa-home"></i>
-                        <span>首页</span>
+                        <span>Home</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ '/publications' | relative_url }}" class="nav-link {% if page.url contains 'publications' %}active{% endif %}">
+                    <span class="nav-link disabled" style="cursor: not-allowed; opacity: 0.5;">
                         <i class="fas fa-book"></i>
-                        <span>论文发表</span>
-                    </a>
+                        <span>Publications</span>
+                        <small style="font-size: 0.65em; display: block; color: var(--accent-color);">Coming Soon</small>
+                    </span>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ '/projects' | relative_url }}" class="nav-link {% if page.url contains 'projects' %}active{% endif %}">
+                    <span class="nav-link disabled" style="cursor: not-allowed; opacity: 0.5;">
                         <i class="fas fa-code"></i>
-                        <span>研究项目</span>
-                    </a>
+                        <span>Projects</span>
+                        <small style="font-size: 0.65em; display: block; color: var(--accent-color);">Coming Soon</small>
+                    </span>
                 </li>
                 <li class="nav-item">
                     <a href="{{ '/cv' | relative_url }}" class="nav-link {% if page.url contains 'cv' %}active{% endif %}">
                         <i class="fas fa-file-alt"></i>
-                        <span>简历</span>
+                        <span>CV</span>
                     </a>
                 </li>
             </ul>
         </div>
     </nav>
 </header>
-
