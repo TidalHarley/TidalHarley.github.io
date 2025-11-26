@@ -3,9 +3,21 @@ layout: default
 title: Home
 ---
 
-<div class="hero-section" style="position: relative;">
-    <div class="hero-background" style="position: absolute; top: -50px; left: 50%; transform: translateX(-50%); width: 400px; height: 400px; background: url('{{ '/assets/images/iceberg.jpg' | relative_url }}') center/contain no-repeat; opacity: 0.15; z-index: 0;"></div>
-    <img src="{{ '/assets/images/resume.jpg' | relative_url }}" alt="Haolin Yang" class="hero-avatar" style="position: relative; z-index: 1;">
+<div class="hero-section" style="position: relative; overflow: hidden;">
+    <!-- 装饰性背景元素 -->
+    <div style="position: absolute; top: -100px; left: -100px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(26, 54, 93, 0.08) 0%, transparent 70%); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; bottom: -50px; right: -50px; width: 250px; height: 250px; background: radial-gradient(circle, rgba(196, 160, 82, 0.1) 0%, transparent 70%); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; top: 50%; left: 10%; width: 150px; height: 150px; background: radial-gradient(circle, rgba(26, 54, 93, 0.05) 0%, transparent 70%); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; top: 20%; right: 15%; width: 100px; height: 100px; border: 2px solid rgba(196, 160, 82, 0.15); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; bottom: 30%; left: 20%; width: 60px; height: 60px; border: 2px solid rgba(26, 54, 93, 0.1); border-radius: 50%; z-index: 0;"></div>
+    
+    <!-- 几何线条装饰 -->
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: 
+        linear-gradient(135deg, transparent 40%, rgba(26, 54, 93, 0.02) 40%, rgba(26, 54, 93, 0.02) 60%, transparent 60%),
+        linear-gradient(45deg, transparent 45%, rgba(196, 160, 82, 0.03) 45%, rgba(196, 160, 82, 0.03) 55%, transparent 55%);
+        z-index: 0;"></div>
+    
+    <img src="{{ '/assets/images/resume.jpg' | relative_url }}" alt="Haolin Yang" class="hero-avatar" style="position: relative; z-index: 1; border: 4px solid white; box-shadow: 0 8px 32px rgba(0,0,0,0.15);">
     <h1 class="hero-name" style="position: relative; z-index: 1;">Haolin Yang</h1>
     <p class="hero-title" style="position: relative; z-index: 1;">
         <i class="fas fa-graduation-cap"></i> Undergraduate @ Peking University, School of Intelligence Science and Technology
@@ -34,7 +46,7 @@ title: Home
 
 ## <i class="fas fa-user"></i> About Me
 
-I am a third-year undergraduate student at **Peking University**, majoring in **Intelligence Science and Technology**. My research focuses on building intelligent agents that can understand and navigate the physical world through language and vision.
+I am a third-year undergraduate student at **Peking University**, majoring in **Intelligence Science and Technology**. My research focuses on Embodied Intelligence and Multimodal Comprehension
 
 Currently, I am working on:
 
@@ -54,10 +66,10 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
 <div class="news-timeline">
     <div class="news-item">
         <span class="news-date">2025.09</span>
-        <p class="news-content">NavSpace: How navigation agents follow spatial intelligent instructions was delivered to ICRA2026!</p>
+        <p class="news-content">Submitted-NavSpace: How navigation agents follow spatial intelligent instructions was delivered to ICRA2026!</p>
     </div>
     <div class="news-item">
-        <span class="news-date">2024.12</span>
+        <span class="news-date">2025.03</span>
         <p class="news-content">Initiated NavSpace project - A benchmark for spatial intelligence in navigation.</p>
     </div>
 </div>
@@ -75,7 +87,7 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
                     <i class="fas fa-external-link-alt" style="font-size: 0.7em; margin-left: 6px;"></i>
                 </a>
             </h3>
-            <span class="project-status">Published</span>
+            <span class="project-status">Preprint</span>
         </div>
         <p class="project-description">
             Instruction-following navigation is a key step toward embodied intelligence. Prior benchmarks mainly focus on semantic understanding but overlook systematically evaluating navigation agents' spatial perception and reasoning capabilities. In this work, we introduce the <strong>NavSpace</strong> benchmark, which contains six task categories and 1,228 trajectory-instruction pairs designed to probe the spatial intelligence of navigation agents. On this benchmark, we comprehensively evaluate 22 navigation agents, including state-of-the-art navigation models and multimodal large language models. The evaluation results lift the veil on spatial intelligence in embodied navigation. Furthermore, we propose <strong>SNav</strong>, a new spatially intelligent navigation model. SNav outperforms existing navigation agents on NavSpace and real robot tests, establishing a strong baseline for future work.
@@ -113,18 +125,37 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
 
 ## <i class="fas fa-briefcase"></i> Internship
 
-<div class="content-card" style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
-    <div style="flex-shrink: 0;">
-        <img src="{{ '/assets/images/Agibot.png' | relative_url }}" alt="Agibot" style="width: 80px; height: 80px; object-fit: contain; border-radius: 12px;">
+<div style="display: flex; flex-direction: column; gap: 1rem;">
+    <!-- Zhiyuan Robotics -->
+    <div class="content-card" style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+        <div style="flex-shrink: 0;">
+            <img src="{{ '/assets/images/Agibot.png' | relative_url }}" alt="Agibot" style="width: 70px; height: 70px; object-fit: contain; border-radius: 12px; background: #f8f9fa; padding: 8px;">
+        </div>
+        <div style="flex: 1; min-width: 250px;">
+            <h4 style="margin: 0 0 0.5rem 0; color: var(--primary-color); font-size: 1.05rem;">
+                Zhiyuan Robotics Co., Ltd. – PKU Joint Laboratory
+            </h4>
+            <p style="margin: 0; color: var(--text-secondary); font-size: 0.95rem;">
+                <i class="fas fa-user-tie" style="margin-right: 8px; color: var(--accent-color);"></i>
+                Research Intern
+            </p>
+        </div>
     </div>
-    <div style="flex: 1; min-width: 250px;">
-        <h4 style="margin: 0 0 0.5rem 0; color: var(--primary-color);">
-            Zhiyuan Robotics Co., Ltd. – PKU Joint Laboratory
-        </h4>
-        <p style="margin: 0; color: var(--text-secondary);">
-            <i class="fas fa-user-tie" style="margin-right: 8px; color: var(--accent-color);"></i>
-            Research Intern
-        </p>
+    
+    <!-- Zhipu AI -->
+    <div class="content-card" style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+        <div style="flex-shrink: 0;">
+            <img src="{{ '/assets/images/zhipu.png' | relative_url }}" alt="Zhipu AI" style="width: 70px; height: 70px; object-fit: contain; border-radius: 12px; background: #f8f9fa; padding: 8px;">
+        </div>
+        <div style="flex: 1; min-width: 250px;">
+            <h4 style="margin: 0 0 0.5rem 0; color: var(--primary-color); font-size: 1.05rem;">
+                Beijing Zhipu Huazhang Technology Co., Ltd.
+            </h4>
+            <p style="margin: 0; color: var(--text-secondary); font-size: 0.95rem;">
+                <i class="fas fa-microchip" style="margin-right: 8px; color: var(--accent-color);"></i>
+                AI Application Engineer
+            </p>
+        </div>
     </div>
 </div>
 
@@ -135,19 +166,19 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
 <div class="content-card">
     <table style="width: 100%; border-collapse: collapse;">
         <tr>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); width: 35%; font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2024 - 2025</td>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); width: 35%; font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">Sep.2024 - Jul.2025</td>
             <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Huawei Scholarship</strong></td>
         </tr>
         <tr>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2024 - 2025</td>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">Sep.2024 - Jul.2025</td>
             <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Peking University Excellent Research Award</strong></td>
         </tr>
         <tr>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2023 - 2024</td>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">Sep.2023 - Jul.2024</td>
             <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Shenzhen Stock Exchange Scholarship</strong></td>
         </tr>
         <tr>
-            <td style="padding: 0.75rem 0; font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2023 - 2024</td>
+            <td style="padding: 0.75rem 0; font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">Sep.2023 - Jul.2024</td>
             <td style="padding: 0.75rem 0;"><strong>Peking University Excellent Research Award</strong></td>
         </tr>
     </table>
@@ -195,4 +226,22 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
 
 ## <i class="fas fa-lightbulb"></i> Beyond Research
 
-I believe that great research should not only advance scientific understanding but also have the potential to transform how people interact with technology in their daily lives.
+<div class="content-card" style="position: relative; overflow: hidden; background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%); color: white; border: none;">
+    <!-- 装饰性引号 -->
+    <div style="position: absolute; top: -20px; left: 20px; font-size: 8rem; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+    
+    <div style="position: relative; z-index: 1;">
+        <p style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.15rem; line-height: 1.8; font-style: italic; margin-bottom: 1.5rem; text-align: justify;">
+            Man is only a reed, the weakest in nature, but he is a thinking reed. There is no need for the whole universe to take up arms to crush him: a vapor, a drop of water is enough to kill him. But even if the universe were to crush him, man would still be nobler than his slayer, because he knows that he is dying and the advantage the universe has over him. The universe knows nothing of this.
+        </p>
+        <p style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.25rem; font-weight: 600; color: #c4a052; margin-bottom: 1.5rem; text-align: center;">
+            "All our dignity consists, then, in thought."
+        </p>
+        <p style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1rem; line-height: 1.8; font-style: italic; margin-bottom: 1rem; text-align: justify;">
+            By it we must elevate ourselves, and not by space and time which we cannot fill. Let us endeavour, then, to think well; this is the principle of morality.
+        </p>
+        <p style="text-align: right; font-size: 0.95rem; opacity: 0.8; margin: 0;">
+            <span style="font-style: normal;">—</span> <strong>Blaise Pascal</strong>, <em>Pensées</em>
+        </p>
+    </div>
+</div>
