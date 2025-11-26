@@ -3,15 +3,15 @@ layout: default
 title: Home
 ---
 
-<div class="hero-section">
-    <img src="{{ '/assets/images/resume.jpg' | relative_url }}" alt="Haolin Yang" class="hero-avatar">
-    <h1 class="hero-name">Haolin Yang</h1>
-    <p class="hero-name-cn">杨 昊 霖</p>
-    <p class="hero-title">
+<div class="hero-section" style="position: relative;">
+    <div class="hero-background" style="position: absolute; top: -50px; left: 50%; transform: translateX(-50%); width: 400px; height: 400px; background: url('{{ '/assets/images/iceberg.png' | relative_url }}') center/contain no-repeat; opacity: 0.15; z-index: 0;"></div>
+    <img src="{{ '/assets/images/resume.jpg' | relative_url }}" alt="Haolin Yang" class="hero-avatar" style="position: relative; z-index: 1;">
+    <h1 class="hero-name" style="position: relative; z-index: 1;">Haolin Yang</h1>
+    <p class="hero-title" style="position: relative; z-index: 1;">
         <i class="fas fa-graduation-cap"></i> Undergraduate @ Peking University, School of Intelligence Science and Technology
     </p>
-    <div class="hero-links">
-        <a href="mailto:your_email@pku.edu.cn" class="hero-link">
+    <div class="hero-links" style="position: relative; z-index: 1;">
+        <a href="mailto:harley_yang@stu.pku.edu.cn" class="hero-link">
             <i class="fas fa-envelope"></i>
             Email
         </a>
@@ -19,11 +19,11 @@ title: Home
             <i class="fab fa-github"></i>
             GitHub
         </a>
-        <a href="{{ '/cv' | relative_url }}" class="hero-link">
-            <i class="fas fa-file-alt"></i>
-            CV
+        <a href="{{ '/blog' | relative_url }}" class="hero-link">
+            <i class="fas fa-blog"></i>
+            Blog
         </a>
-        <a href="https://scholar.google.com" target="_blank" class="hero-link">
+        <a href="https://scholar.google.com/citations?user=qHD7JVAAAAAJ&hl=zh-CN" target="_blank" class="hero-link">
             <i class="fas fa-graduation-cap"></i>
             Google Scholar
         </a>
@@ -71,7 +71,7 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
         <div class="project-header">
             <h3 class="project-title">
                 <a href="https://arxiv.org/abs/2510.08173" target="_blank" style="color: inherit; text-decoration: none;">
-                    NavSpace Benchmark
+                    NavSpace: How navigation agents follow spatial intelligent instructions
                     <i class="fas fa-external-link-alt" style="font-size: 0.7em; margin-left: 6px;"></i>
                 </a>
             </h3>
@@ -97,7 +97,7 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
         <div class="project-tags">
             <span class="project-tag">VLN</span>
             <span class="project-tag">Spatial Reasoning</span>
-            <span class="project-tag">Benchmark</span>
+            <span class="project-tag">VLLM</span>
             <span class="project-tag">ICRA 2026</span>
         </div>
         <p style="margin-top: 1rem;">
@@ -111,17 +111,36 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
 
 ---
 
+## <i class="fas fa-briefcase"></i> Internship
+
+<div class="content-card" style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+    <div style="flex-shrink: 0;">
+        <img src="{{ '/assets/images/Agibot.png' | relative_url }}" alt="Agibot" style="width: 80px; height: 80px; object-fit: contain; border-radius: 12px;">
+    </div>
+    <div style="flex: 1; min-width: 250px;">
+        <h4 style="margin: 0 0 0.5rem 0; color: var(--primary-color);">
+            Zhiyuan Robotics Co., Ltd. – PKU Joint Laboratory
+        </h4>
+        <p style="margin: 0; color: var(--text-secondary);">
+            <i class="fas fa-user-tie" style="margin-right: 8px; color: var(--accent-color);"></i>
+            Research Intern
+        </p>
+    </div>
+</div>
+
+---
+
 ## <i class="fas fa-trophy"></i> Honors & Awards
 
 <div class="content-card">
     <table style="width: 100%; border-collapse: collapse;">
         <tr>
             <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); width: 35%; font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2024 - 2025</td>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Huawei Scholarship</strong>, Peking University</td>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Huawei Scholarship</strong></td>
         </tr>
         <tr>
             <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2024 - 2025</td>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Excellent Research Award</strong>, Peking University</td>
+            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Peking University Excellent Research Award</strong></td>
         </tr>
         <tr>
             <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2023 - 2024</td>
@@ -129,7 +148,7 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
         </tr>
         <tr>
             <td style="padding: 0.75rem 0; font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-color);">2023 - 2024</td>
-            <td style="padding: 0.75rem 0;"><strong>Excellent Research Award</strong>, Peking University</td>
+            <td style="padding: 0.75rem 0;"><strong>Peking University Excellent Research Award</strong></td>
         </tr>
     </table>
 </div>
@@ -140,12 +159,14 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
 
 <div class="content-card">
     <div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
-        <div style="flex: 1; min-width: 200px;">
-            <h4 style="margin: 0 0 0.5rem 0; color: var(--primary-color);">
-                <i class="fas fa-globe-americas" style="margin-right: 8px;"></i>
-                TOEFL iBT
-            </h4>
-            <p style="font-size: 2.5rem; font-weight: 700; color: var(--accent-color); margin: 0; font-family: var(--font-mono);">114</p>
+        <div style="flex: 1; min-width: 200px; display: flex; align-items: center; gap: 1rem;">
+            <img src="{{ '/assets/images/TOEFL.png' | relative_url }}" alt="TOEFL" style="width: 50px; height: 50px; object-fit: contain;">
+            <div>
+                <h4 style="margin: 0 0 0.25rem 0; color: var(--primary-color);">
+                    TOEFL iBT
+                </h4>
+                <p style="font-size: 2.5rem; font-weight: 700; color: var(--accent-color); margin: 0; font-family: var(--font-mono);">114</p>
+            </div>
         </div>
         <div style="flex: 2; min-width: 280px;">
             <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;">

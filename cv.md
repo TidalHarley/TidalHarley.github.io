@@ -1,154 +1,86 @@
 ---
 layout: default
-title: CV
-permalink: /cv/
+title: Blog
+permalink: /blog/
 ---
 
-# <i class="fas fa-file-alt"></i> Curriculum Vitae
+# <i class="fas fa-blog"></i> Blog
 
-<p style="margin-bottom: 2rem;">
-    <a href="{{ '/assets/pdf/Personal Resume_25.11.pdf' | relative_url }}" target="_blank" class="cv-download">
-        <i class="fas fa-download"></i>
-        Download Full CV (PDF)
-    </a>
-</p>
+Welcome to my blog! Here I share notes, thoughts, and insights from my School journey.
 
 ---
 
-## <i class="fas fa-file-pdf"></i> Resume Preview
+## <i class="fas fa-flask"></i> Research Notes
 
-<div style="width: 100%; height: 800px; border: 1px solid var(--border-color); border-radius: 12px; overflow: hidden; margin-bottom: 2rem;">
-    <iframe 
-        src="{{ '/assets/pdf/Personal Resume_25.11.pdf' | relative_url }}" 
-        width="100%" 
-        height="100%" 
-        style="border: none;">
-        <p>Your browser does not support PDF preview. 
-            <a href="{{ '/assets/pdf/Personal Resume_25.11.pdf' | relative_url }}" target="_blank">Click here to download the PDF</a>.
+<div class="project-grid">
+    <div class="content-card">
+        <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">
+            <i class="fas fa-robot" style="margin-right: 8px;"></i>
+            Embodied AI & Navigation
+        </h4>
+        <p class="text-muted" style="font-size: 0.85rem; margin-bottom: 1rem;">
+            <i class="far fa-clock"></i> Coming Soon
         </p>
-    </iframe>
-</div>
-
----
-
-## <i class="fas fa-graduation-cap"></i> Education
-
-<div class="cv-section">
-    <div class="cv-item">
-        <span class="cv-period">2023 - Present</span>
-        <h4 class="cv-title">B.S. in Intelligence Science and Technology</h4>
-        <p class="cv-organization">Peking University, School of Intelligence Science and Technology</p>
-        <p class="cv-description">
-            • Core Courses: Introduction to AI, Machine Learning, Deep Learning, Computer Vision, NLP<br>
-            • Research Focus: Embodied AI, Vision-Language Navigation, Spatial Reasoning
+        <p>Notes on Vision-Language Navigation, Habitat-Sim, and spatial reasoning in embodied agents.</p>
+    </div>
+    
+    <div class="content-card">
+        <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">
+            <i class="fas fa-brain" style="margin-right: 8px;"></i>
+            Multimodal Learning
+        </h4>
+        <p class="text-muted" style="font-size: 0.85rem; margin-bottom: 1rem;">
+            <i class="far fa-clock"></i> Coming Soon
         </p>
+        <p>Explorations in vision-language models, CLIP, and multimodal representations.</p>
     </div>
 </div>
 
 ---
 
-## <i class="fas fa-flask"></i> Research Experience
+## <i class="fas fa-book-open"></i> Paper Reading
 
-<div class="cv-section">
-    <div class="cv-item">
-        <span class="cv-period">2024 - Present</span>
-        <h4 class="cv-title">Embodied AI Research</h4>
-        <p class="cv-organization">Peking University</p>
-        <p class="cv-description">
-            • Designed and developed the NavSpace spatial intelligence benchmark<br>
-            • Collected 1,228+ navigation trajectories and natural language instructions<br>
-            • Evaluated multiple VLN models for spatial reasoning in HM3D environments<br>
-            • Researched navigation agents' spatial understanding across six dimensions
-        </p>
+<div class="news-timeline">
+    <div class="news-item">
+        <span class="news-date">Coming Soon</span>
+        <p class="news-content">Paper reading notes and summaries will be posted here.</p>
     </div>
 </div>
 
 ---
 
-## <i class="fas fa-trophy"></i> Honors & Awards
-
-<div class="cv-section">
-    <div class="cv-item">
-        <p class="cv-description" style="color: var(--text-muted); font-style: italic;">
-            Please refer to the PDF resume above for the complete list of honors and awards.
-        </p>
-    </div>
-</div>
-
----
-
-## <i class="fas fa-code"></i> Technical Skills
+## <i class="fas fa-code"></i> Technical Tutorials
 
 <div class="content-card">
-    <table style="width: 100%; border-collapse: collapse;">
-        <tr>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); width: 30%;"><strong>Programming</strong></td>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);">Python, C/C++, JavaScript, Shell</td>
-        </tr>
-        <tr>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Deep Learning</strong></td>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);">PyTorch, HuggingFace Transformers</td>
-        </tr>
-        <tr>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Simulation</strong></td>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);">Habitat-Sim, HM3D, Matterport3D</td>
-        </tr>
-        <tr>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);"><strong>Data Processing</strong></td>
-            <td style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);">NumPy, Pandas, OpenCV</td>
-        </tr>
-        <tr>
-            <td style="padding: 0.75rem 0;"><strong>Dev Tools</strong></td>
-            <td style="padding: 0.75rem 0;">Git, Linux, Docker, VS Code</td>
-        </tr>
-    </table>
-</div>
-
----
-
-## <i class="fas fa-language"></i> Languages
-
-<div class="content-card">
-    <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
-        <div>
-            <strong>Chinese</strong><br>
-            <span class="text-muted">Native</span>
-        </div>
-        <div>
-            <strong>English</strong><br>
-            <span class="text-muted">Fluent (Academic Reading & Writing)</span>
-        </div>
+    <div style="text-align: center; padding: 2rem; color: var(--text-muted);">
+        <i class="fas fa-tools" style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.5;"></i>
+        <p>Technical tutorials and coding guides coming soon!</p>
+        <p style="font-size: 0.9rem;">Topics will include: PyTorch, Habitat-Sim, HuggingFace, and more.</p>
     </div>
 </div>
 
 ---
 
-## <i class="fas fa-heart"></i> Interests
+## <i class="fas fa-lightbulb"></i> Thoughts & Reflections
 
-<div class="research-interests" style="margin-top: 1rem;">
-    <span class="interest-tag"><i class="fas fa-robot"></i> Embodied AI</span>
-    <span class="interest-tag"><i class="fas fa-route"></i> Navigation Systems</span>
-    <span class="interest-tag"><i class="fas fa-dumbbell"></i> Fitness</span>
-    <span class="interest-tag"><i class="fas fa-basketball-ball"></i> Basketball</span>
-    <span class="interest-tag"><i class="fas fa-gamepad"></i> Gaming</span>
+<div class="content-card">
+    <blockquote style="border-left: 4px solid var(--accent-color); padding-left: 1.5rem; margin: 0; font-style: italic; color: var(--text-secondary);">
+        "Research is not just about finding answers, but about asking the right questions."
+    </blockquote>
+    <p style="margin-top: 1rem; text-align: right; color: var(--text-muted);">— More reflections coming soon</p>
 </div>
 
 ---
 
-## <i class="fas fa-envelope"></i> Contact
+## <i class="fas fa-rss"></i> Subscribe
 
-<div class="content-card">
-    <p>
-        <i class="fas fa-envelope" style="width: 24px; color: var(--accent-color);"></i>
-        <a href="mailto:your_email@pku.edu.cn">your_email@pku.edu.cn</a>
-    </p>
-    <p>
-        <i class="fab fa-github" style="width: 24px; color: var(--accent-color);"></i>
-        <a href="https://github.com/tidalharley" target="_blank">github.com/tidalharley</a>
-    </p>
-    <p>
-        <i class="fas fa-map-marker-alt" style="width: 24px; color: var(--accent-color);"></i>
-        Peking University, Beijing, China
+<div class="content-card" style="text-align: center;">
+    <p>Stay tuned for updates! New content will be posted regularly.</p>
+    <p style="margin-top: 1rem;">
+        <a href="mailto:harley_yang@stu.pku.edu.cn" class="hero-link" style="display: inline-flex;">
+            <i class="fas fa-envelope"></i>
+            Contact Me
+        </a>
     </p>
 </div>
 
