@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="hero-section" style="position: relative;">
-    <div class="hero-background" style="position: absolute; top: -50px; left: 50%; transform: translateX(-50%); width: 400px; height: 400px; background: url('{{ '/assets/images/iceberg.png' | relative_url }}') center/contain no-repeat; opacity: 0.15; z-index: 0;"></div>
+    <div class="hero-background" style="position: absolute; top: -50px; left: 50%; transform: translateX(-50%); width: 400px; height: 400px; background: url('{{ '/assets/images/iceberg.jpg' | relative_url }}') center/contain no-repeat; opacity: 0.15; z-index: 0;"></div>
     <img src="{{ '/assets/images/resume.jpg' | relative_url }}" alt="Haolin Yang" class="hero-avatar" style="position: relative; z-index: 1;">
     <h1 class="hero-name" style="position: relative; z-index: 1;">Haolin Yang</h1>
     <p class="hero-title" style="position: relative; z-index: 1;">
