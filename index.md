@@ -4,17 +4,19 @@ title: Home
 ---
 
 <div class="hero-section" style="position: relative; overflow: hidden;">
-    <!-- 装饰性背景元素 -->
-    <div style="position: absolute; top: -100px; left: -100px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(26, 54, 93, 0.08) 0%, transparent 70%); border-radius: 50%; z-index: 0;"></div>
-    <div style="position: absolute; bottom: -50px; right: -50px; width: 250px; height: 250px; background: radial-gradient(circle, rgba(196, 160, 82, 0.1) 0%, transparent 70%); border-radius: 50%; z-index: 0;"></div>
-    <div style="position: absolute; top: 50%; left: 10%; width: 150px; height: 150px; background: radial-gradient(circle, rgba(26, 54, 93, 0.05) 0%, transparent 70%); border-radius: 50%; z-index: 0;"></div>
-    <div style="position: absolute; top: 20%; right: 15%; width: 100px; height: 100px; border: 2px solid rgba(196, 160, 82, 0.15); border-radius: 50%; z-index: 0;"></div>
-    <div style="position: absolute; bottom: 30%; left: 20%; width: 60px; height: 60px; border: 2px solid rgba(26, 54, 93, 0.1); border-radius: 50%; z-index: 0;"></div>
+    <!-- 装饰性背景元素 - 加深版 -->
+    <div style="position: absolute; top: -100px; left: -100px; width: 350px; height: 350px; background: radial-gradient(circle, rgba(26, 54, 93, 0.18) 0%, transparent 70%); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; bottom: -50px; right: -50px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(196, 160, 82, 0.2) 0%, transparent 70%); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; top: 50%; left: 5%; width: 200px; height: 200px; background: radial-gradient(circle, rgba(26, 54, 93, 0.12) 0%, transparent 70%); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; top: 15%; right: 10%; width: 120px; height: 120px; border: 3px solid rgba(196, 160, 82, 0.3); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; bottom: 25%; left: 15%; width: 80px; height: 80px; border: 3px solid rgba(26, 54, 93, 0.2); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; top: 30%; right: 25%; width: 50px; height: 50px; background: rgba(196, 160, 82, 0.15); border-radius: 50%; z-index: 0;"></div>
+    <div style="position: absolute; bottom: 40%; right: 8%; width: 40px; height: 40px; background: rgba(26, 54, 93, 0.1); border-radius: 50%; z-index: 0;"></div>
     
-    <!-- 几何线条装饰 -->
+    <!-- 几何线条装饰 - 加深版 -->
     <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: 
-        linear-gradient(135deg, transparent 40%, rgba(26, 54, 93, 0.02) 40%, rgba(26, 54, 93, 0.02) 60%, transparent 60%),
-        linear-gradient(45deg, transparent 45%, rgba(196, 160, 82, 0.03) 45%, rgba(196, 160, 82, 0.03) 55%, transparent 55%);
+        linear-gradient(135deg, transparent 35%, rgba(26, 54, 93, 0.06) 35%, rgba(26, 54, 93, 0.06) 65%, transparent 65%),
+        linear-gradient(45deg, transparent 40%, rgba(196, 160, 82, 0.08) 40%, rgba(196, 160, 82, 0.08) 60%, transparent 60%);
         z-index: 0;"></div>
     
     <img src="{{ '/assets/images/resume.jpg' | relative_url }}" alt="Haolin Yang" class="hero-avatar" style="position: relative; z-index: 1; border: 4px solid white; box-shadow: 0 8px 32px rgba(0,0,0,0.15);">
@@ -228,20 +230,20 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to join me
 
 <div class="content-card" style="position: relative; overflow: hidden; background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%); color: white; border: none;">
     <!-- 装饰性引号 -->
-    <div style="position: absolute; top: -20px; left: 20px; font-size: 8rem; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+    <div style="position: absolute; top: -20px; left: 20px; font-size: 8rem; opacity: 0.15; font-family: Georgia, serif; line-height: 1; color: #c4a052;">"</div>
     
     <div style="position: relative; z-index: 1;">
-        <p style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.15rem; line-height: 1.8; font-style: italic; margin-bottom: 1.5rem; text-align: justify;">
+        <p style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.1rem; line-height: 1.85; font-style: italic; margin-bottom: 1.5rem; text-align: justify; color: rgba(255,255,255,0.95);">
             Man is only a reed, the weakest in nature, but he is a thinking reed. There is no need for the whole universe to take up arms to crush him: a vapor, a drop of water is enough to kill him. But even if the universe were to crush him, man would still be nobler than his slayer, because he knows that he is dying and the advantage the universe has over him. The universe knows nothing of this.
         </p>
-        <p style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.25rem; font-weight: 600; color: #c4a052; margin-bottom: 1.5rem; text-align: center;">
+        <p style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.2rem; font-weight: 600; color: #c4a052; margin-bottom: 1.5rem; text-align: center; padding: 0.5rem 0;">
             "All our dignity consists, then, in thought."
         </p>
-        <p style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1rem; line-height: 1.8; font-style: italic; margin-bottom: 1rem; text-align: justify;">
+        <p style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.1rem; line-height: 1.85; font-style: italic; margin-bottom: 1.5rem; text-align: justify; color: rgba(255,255,255,0.95);">
             By it we must elevate ourselves, and not by space and time which we cannot fill. Let us endeavour, then, to think well; this is the principle of morality.
         </p>
-        <p style="text-align: right; font-size: 0.95rem; opacity: 0.8; margin: 0;">
-            <span style="font-style: normal;">—</span> <strong>Blaise Pascal</strong>, <em>Pensées</em>
+        <p style="text-align: right; font-size: 1.1rem; margin: 0; color: #c4a052;">
+            <span style="font-style: normal;">—</span> <strong style="color: #c4a052;">Blaise Pascal</strong>, <em style="color: rgba(255,255,255,0.8);">Pensées</em>
         </p>
     </div>
 </div>
