@@ -1,0 +1,42 @@
+<header class="site-header">
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="{{ '/' | relative_url }}" class="nav-logo">
+                <span class="logo-text">{{ site.title | split: "(" | first }}</span>
+                <span class="logo-chinese">杨昊霖</span>
+            </a>
+            
+            <button class="nav-toggle" aria-label="切换导航">
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">
+                        <i class="fas fa-home"></i>
+                        <span>首页</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ '/publications' | relative_url }}" class="nav-link {% if page.url contains 'publications' %}active{% endif %}">
+                        <i class="fas fa-book"></i>
+                        <span>论文发表</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ '/projects' | relative_url }}" class="nav-link {% if page.url contains 'projects' %}active{% endif %}">
+                        <i class="fas fa-code"></i>
+                        <span>研究项目</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ '/cv' | relative_url }}" class="nav-link {% if page.url contains 'cv' %}active{% endif %}">
+                        <i class="fas fa-file-alt"></i>
+                        <span>简历</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
