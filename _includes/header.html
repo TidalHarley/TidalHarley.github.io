@@ -2,8 +2,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="{{ '/' | relative_url }}" class="nav-logo">
-                <span class="logo-text">{{ site.title | split: "(" | first }}</span>
-                <span class="logo-chinese">杨昊霖</span>
+                <span class="logo-text">Haolin Yang</span>
             </a>
             
             <button class="nav-toggle" aria-label="Toggle Navigation">
@@ -12,30 +11,13 @@
             
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">
-                        <i class="fas fa-home"></i>
-                        <span>Home</span>
-                    </a>
+                    <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link disabled" style="cursor: not-allowed; opacity: 0.5;">
-                        <i class="fas fa-book"></i>
-                        <span>Publications</span>
-                        <small style="font-size: 0.65em; display: block; color: var(--accent-color);">Coming Soon</small>
-                    </span>
+                    <a href="{{ '/publications/' | relative_url }}" class="nav-link {% if page.url contains 'publications' %}active{% endif %}">Publications</a>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link disabled" style="cursor: not-allowed; opacity: 0.5;">
-                        <i class="fas fa-code"></i>
-                        <span>Projects</span>
-                        <small style="font-size: 0.65em; display: block; color: var(--accent-color);">Coming Soon</small>
-                    </span>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ '/blog' | relative_url }}" class="nav-link {% if page.url contains 'blog' %}active{% endif %}">
-                        <i class="fas fa-blog"></i>
-                        <span>Blog</span>
-                    </a>
+                    <a href="{{ '/cv/' | relative_url }}" class="nav-link {% if page.url contains 'cv' %}active{% endif %}">CV</a>
                 </li>
             </ul>
         </div>
