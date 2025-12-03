@@ -245,36 +245,71 @@ li {
     display: none;
 }
 
-/* Publication 简洁样式 */
-.publication-simple {
-    margin: 1.5rem 0;
+/* Publication 左右布局 */
+.publication-row {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin: 1rem 0;
 }
 
-.publication-simple .publication-image {
+.publication-image-col {
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+
+.publication-image-col img {
     width: 100%;
-    max-width: 700px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
-    margin-bottom: 1rem;
 }
 
-.publication-simple .publication-title {
+.publication-info-col {
+    flex: 1;
+}
+
+.publication-info-col .publication-title {
     font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
 }
 
-.publication-simple .publication-title a {
+.publication-info-col .publication-title a {
     color: var(--text-primary);
 }
 
-.publication-simple .publication-title a:hover {
+.publication-info-col .publication-title a:hover {
     color: var(--accent-color);
 }
 
-.publication-simple .publication-venue {
+.publication-authors {
     font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.3rem;
+    line-height: 1.5;
+}
+
+.publication-venue {
+    font-size: 0.85rem;
     color: var(--text-muted);
     font-style: italic;
+    margin-bottom: 0.3rem;
+}
+
+.publication-highlight {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .publication-row {
+        flex-direction: column;
+    }
+    
+    .publication-image-col {
+        flex: none;
+        max-width: 100%;
+    }
 }
 
 /* 页脚 */

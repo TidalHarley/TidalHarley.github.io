@@ -30,17 +30,20 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to chat wi
 
 ## Publication
 
-<div class="publication-simple">
-    <a href="https://arxiv.org/abs/2510.08173" target="_blank">
-        <img src="{{ '/assets/images/navspace.png' | relative_url }}" alt="NavSpace" class="publication-image">
-    </a>
-    <h3 class="publication-title">
+<div class="publication-row">
+    <div class="publication-image-col">
         <a href="https://arxiv.org/abs/2510.08173" target="_blank">
-            NavSpace: How navigation agents follow spatial intelligent instructions
+            <img src="{{ '/assets/images/navspace.png' | relative_url }}" alt="NavSpace">
         </a>
-    </h3>
-    <p class="publication-venue">(Preprint)</p>
-    <p><strong>The First Spatial Intelligence Benchmark in Embodied Navigation</strong></p>
+    </div>
+    <div class="publication-info-col">
+        <h3 class="publication-title">
+            <a href="https://arxiv.org/abs/2510.08173" target="_blank">NavSpace: How navigation agents follow spatial intelligent instructions</a>
+        </h3>
+        <p class="publication-authors"><strong>Haolin Yang</strong>, Yuxing Long, Zhuoyuan Yu, Zihan Yang, Minghan Wang, Jiapeng Xu, Yihan Wang, Ziyan Yu, Wenzhe Cai, Lei Kang, Hao Dong</p>
+        <p class="publication-venue">Preprint</p>
+        <p class="publication-highlight"><strong>The First Spatial Intelligence Benchmark in Embodied Navigation</strong></p>
+    </div>
 </div>
 
 ---
