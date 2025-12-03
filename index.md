@@ -39,7 +39,8 @@ I enjoy working out at Gym, playing basketball, and hiking. Feel free to chat wi
             NavSpace: How navigation agents follow spatial intelligent instructions
         </a>
     </h3>
-    <p class="publication-venue">ICRA 2026 (Submitted)</p>
+    <p class="publication-venue">(Preprint)</p>
+    <p><strong>The First Spatial Intelligence Benchmark in Embodied Navigation</strong></p>
 </div>
 
 ---

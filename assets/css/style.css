@@ -98,9 +98,9 @@ li {
 }
 
 .navbar {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 2rem;
 }
 
 .nav-container {
@@ -186,9 +186,9 @@ li {
 }
 
 .container {
-    max-width: 700px;
+    max-width: 960px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 2rem;
 }
 
 /* 首页样式 */
@@ -252,7 +252,7 @@ li {
 
 .publication-simple .publication-image {
     width: 100%;
-    max-width: 500px;
+    max-width: 700px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
     margin-bottom: 1rem;
@@ -357,6 +357,27 @@ li {
     .hero-name {
         font-size: 1.75rem;
     }
+}
+
+/* 下载按钮 */
+.download-btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: var(--text-primary);
+    color: white;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.download-btn:hover {
+    background: var(--accent-color);
+    color: white;
+    text-decoration: none;
+}
+
+/* CV 嵌入 */
+.cv-embed {
+    margin-top: 1rem;
 }
 
 /* 工具类 */
