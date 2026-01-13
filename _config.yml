@@ -1,44 +1,38 @@
 # ========================================
-# 杨昊霖个人主页配置
+# Haolin Yang - Personal Homepage
 # ========================================
 
-# 站点基本信息
+# Site Information
 title: "Haolin Yang"
-description: "北京大学智能科学与技术专业本科生 | 研究方向：具身智能、视觉语言导航、多模态学习"
+description: "Undergraduate at Peking University | Research: Embodied AI, Vision-Language Navigation, Multimodal Learning"
 author: "Haolin Yang (杨昊霖)"
 
-# 联系信息
-email: "your_email@pku.edu.cn"
+# Contact
+email: "harley_yang@stu.pku.edu.cn"
 github_username: TidalHarley
 
-# 站点 URL
-url: ""          # 自定义域名，如 https://haolinyang.me
-baseurl: ""      # 如果是个人主页仓库（username.github.io），保持为空
+# Site URL
+url: ""
+baseurl: ""
 
-# 导航栏页面
+# Navigation Pages
 header_pages:
   - index.md
-  - publications.md
-  - projects.md
-  - cv.md
 
-# Markdown 渲染
+# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
 
-# 代码高亮
+# Highlighter
 highlighter: rouge
 
-# 插件
+# Plugins
 plugins:
   - jekyll-seo-tag
 
-# 排除构建的文件
+# Exclude from build
 exclude:
   - README.md
   - Gemfile
@@ -46,7 +40,7 @@ exclude:
   - node_modules
   - vendor
 
-# 默认值
+# Defaults
 defaults:
   - scope:
       path: ""
