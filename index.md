@@ -1,205 +1,171 @@
 ---
 layout: default
-title: Home
+title: Haolin Yang
 ---
 
-<div class="hero-section">
-    <div class="hero-bg-effects">
-        <div class="floating-orb orb-1"></div>
-        <div class="floating-orb orb-2"></div>
-        <div class="floating-orb orb-3"></div>
-        <div class="grid-pattern"></div>
-    </div>
-    
-    <div class="hero-content">
-        <div class="avatar-container">
-            <img src="{{ '/assets/images/resume.jpg' | relative_url }}" alt="Haolin Yang" class="hero-avatar">
-            <div class="avatar-glow"></div>
-        </div>
-        
-        <h1 class="hero-name">Haolin Yang</h1>
-        <p class="hero-name-cn">杨昊霖</p>
-        
-        <p class="hero-title">
-            <i class="fas fa-graduation-cap"></i>
-            Undergraduate @ <strong>Peking University</strong>
-        </p>
-        <p class="hero-subtitle">School of Intelligence Science and Technology</p>
-        
-        <div class="hero-links">
-            <a href="mailto:harley_yang@stu.pku.edu.cn" class="hero-link">
-                <i class="fas fa-envelope"></i>
-                <span>Email</span>
-            </a>
-            <a href="https://github.com/tidalharley" target="_blank" class="hero-link">
-                <i class="fab fa-github"></i>
-                <span>GitHub</span>
-            </a>
-            <a href="https://scholar.google.com/citations?user=qHD7JVAAAAAJ&hl=zh-CN" target="_blank" class="hero-link">
-                <i class="fas fa-graduation-cap"></i>
-                <span>Scholar</span>
-            </a>
-            <a href="https://tidalharley.github.io/PKU-course-notes/index.html" target="_blank" class="hero-link hero-link-accent">
-                <i class="fas fa-book-open"></i>
-                <span>Course Notes</span>
-            </a>
-        </div>
-    </div>
-</div>
+<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr style="padding:0px">
+    <td style="padding:0px">
+      
+      <!-- Bio Section -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr style="padding:0px">
+          <td style="padding:2.5%;width:63%;vertical-align:middle">
+            <p class="name" style="text-align: center;">
+              Haolin Yang <span class="name-cn">杨昊霖</span>
+            </p>
+            <p>
+              I am a third-year undergraduate student at <a href="https://www.pku.edu.cn/">Peking University</a>, majoring in <strong>Intelligence Science and Technology</strong> at the School of Intelligence Science and Technology.
+            </p>
+            <p>
+              My research focuses on <strong>Embodied Intelligence</strong> and <strong>Multimodal Comprehension</strong>. I am particularly interested in Vision-Language Navigation, Spatial Intelligence, and Multimodal Learning.
+            </p>
+            <p style="text-align:center">
+              <a href="mailto:harley_yang@stu.pku.edu.cn">Email</a> &nbsp;/&nbsp;
+              <a href="https://github.com/tidalharley">GitHub</a> &nbsp;/&nbsp;
+              <a href="https://scholar.google.com/citations?user=qHD7JVAAAAAJ&hl=zh-CN">Google Scholar</a> &nbsp;/&nbsp;
+              <a href="https://tidalharley.github.io/PKU-course-notes/index.html">Course Notes</a>
+            </p>
+          </td>
+          <td style="padding:2.5%;width:37%;max-width:37%">
+            <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="assets/images/resume.jpg">
+          </td>
+        </tr>
+      </tbody></table>
+      
+      <!-- Research Interests -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:16px;width:100%;vertical-align:middle">
+            <h2>Research Interests</h2>
+            <p>
+              <span class="interest-tag">Embodied AI</span>
+              <span class="interest-tag">Vision-Language Navigation</span>
+              <span class="interest-tag">Spatial Intelligence</span>
+              <span class="interest-tag">Multimodal Learning</span>
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
 
-<section class="section about-section">
-    <h2 class="section-title">
-        <span class="title-icon"><i class="fas fa-user"></i></span>
-        About Me
-    </h2>
-    <div class="about-content">
-        <p>I am a third-year undergraduate student at <strong>Peking University</strong>, majoring in <strong>Intelligence Science and Technology</strong>. My research focuses on <em>Embodied Intelligence</em> and <em>Multimodal Comprehension</em>.</p>
-        
-        <div class="research-interests">
-            <span class="interest-tag"><i class="fas fa-robot"></i> Embodied AI</span>
-            <span class="interest-tag"><i class="fas fa-route"></i> Vision-Language Navigation</span>
-            <span class="interest-tag"><i class="fas fa-brain"></i> Spatial Intelligence</span>
-            <span class="interest-tag"><i class="fas fa-layer-group"></i> Multimodal Learning</span>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <h2 class="section-title">
-        <span class="title-icon"><i class="fas fa-star"></i></span>
-        Featured Research
-    </h2>
-    
-    <div class="research-card">
-        <div class="research-badge">Preprint · ICRA 2026</div>
-        <h3 class="research-title">
-            <a href="https://arxiv.org/abs/2510.08173" target="_blank">
-                NavSpace: How Navigation Agents Follow Spatial Intelligent Instructions
-                <i class="fas fa-external-link-alt"></i>
+      <!-- Featured Research -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:16px;width:100%;vertical-align:middle">
+            <h2>Research</h2>
+          </td>
+        </tr>
+      </tbody></table>
+      
+      <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr bgcolor="#ffffd0">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <div class="one">
+              <img src='assets/images/iceberg.jpg' width="160" style="border-radius: 5px;">
+            </div>
+          </td>
+          <td style="padding:8px;width:80%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2510.08173">
+              <span class="papertitle">NavSpace: How Navigation Agents Follow Spatial Intelligent Instructions</span>
             </a>
-        </h3>
-        <p class="research-description">
-            We introduce the <strong>NavSpace</strong> benchmark with six task categories and 1,228 trajectory-instruction pairs to evaluate spatial intelligence in navigation agents. We comprehensively evaluate 22 agents and propose <strong>SNav</strong>, a spatially intelligent navigation model that outperforms existing approaches.
-        </p>
-        <div class="research-stats">
-            <div class="stat">
-                <span class="stat-value">1,228</span>
-                <span class="stat-label">Trajectories</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value">6</span>
-                <span class="stat-label">Task Categories</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value">22</span>
-                <span class="stat-label">Agents Evaluated</span>
-            </div>
-        </div>
-        <div class="research-links">
-            <a href="https://arxiv.org/abs/2510.08173" target="_blank" class="research-link">
-                <i class="fas fa-file-pdf"></i> Paper
-            </a>
-        </div>
-    </div>
-</section>
+            <br>
+            <em>Preprint · Submitted to ICRA 2026</em>
+            <br>
+            <a href="https://arxiv.org/abs/2510.08173">arXiv</a>
+            <p></p>
+            <p>
+              We introduce the <strong>NavSpace</strong> benchmark with six task categories and 1,228 trajectory-instruction pairs to evaluate spatial intelligence in navigation agents. We comprehensively evaluate 22 agents and propose <strong>SNav</strong>, a spatially intelligent navigation model that outperforms existing approaches.
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
 
-<section class="section">
-    <h2 class="section-title">
-        <span class="title-icon"><i class="fas fa-briefcase"></i></span>
-        Experience
-    </h2>
-    
-    <div class="experience-grid">
-        <div class="experience-card">
-            <div class="exp-logo">
-                <img src="{{ '/assets/images/Agibot.png' | relative_url }}" alt="Agibot">
-            </div>
-            <div class="exp-content">
-                <h4 class="exp-company">Zhiyuan Robotics Co., Ltd.</h4>
-                <p class="exp-role">Research Intern · PKU Joint Laboratory</p>
-            </div>
-        </div>
-        
-        <div class="experience-card">
-            <div class="exp-logo">
-                <img src="{{ '/assets/images/zhipu.png' | relative_url }}" alt="Zhipu AI">
-            </div>
-            <div class="exp-content">
-                <h4 class="exp-company">Beijing Zhipu Huazhang Technology</h4>
-                <p class="exp-role">AI Application Engineer</p>
-            </div>
-        </div>
-    </div>
-</section>
+      <!-- Experience -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:16px;width:100%;vertical-align:middle">
+            <h2>Experience</h2>
+          </td>
+        </tr>
+      </tbody></table>
+      
+      <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:16px;vertical-align:middle">
+            <img src="assets/images/Agibot.png" class="experience-logo" alt="Agibot">
+            <strong>Zhiyuan Robotics Co., Ltd.</strong>
+            <br>
+            Research Intern · PKU Joint Laboratory
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:16px;vertical-align:middle">
+            <img src="assets/images/zhipu.png" class="experience-logo" alt="Zhipu AI">
+            <strong>Beijing Zhipu Huazhang Technology</strong>
+            <br>
+            AI Application Engineer
+          </td>
+        </tr>
+      </tbody></table>
 
-<section class="section">
-    <h2 class="section-title">
-        <span class="title-icon"><i class="fas fa-trophy"></i></span>
-        Honors & Awards
-    </h2>
-    
-    <div class="awards-list">
-        <div class="award-item">
-            <span class="award-year">2024-25</span>
-            <span class="award-name">Huawei Scholarship</span>
-        </div>
-        <div class="award-item">
-            <span class="award-year">2024-25</span>
-            <span class="award-name">Peking University Excellent Research Award</span>
-        </div>
-        <div class="award-item">
-            <span class="award-year">2023-24</span>
-            <span class="award-name">Shenzhen Stock Exchange Scholarship</span>
-        </div>
-        <div class="award-item">
-            <span class="award-year">2023-24</span>
-            <span class="award-name">Peking University Excellent Research Award</span>
-        </div>
-    </div>
-</section>
+      <!-- Honors & Awards -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:16px;width:100%;vertical-align:middle">
+            <h2>Honors & Awards</h2>
+            <p>
+              <span class="award-year">2024-25</span> Huawei Scholarship<br>
+              <span class="award-year">2024-25</span> Peking University Excellent Research Award<br>
+              <span class="award-year">2023-24</span> Shenzhen Stock Exchange Scholarship<br>
+              <span class="award-year">2023-24</span> Peking University Excellent Research Award
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
 
-<section class="section">
-    <h2 class="section-title">
-        <span class="title-icon"><i class="fas fa-language"></i></span>
-        Language
-    </h2>
-    
-    <div class="language-card">
-        <div class="toefl-header">
-            <img src="{{ '/assets/images/TOEFL.png' | relative_url }}" alt="TOEFL" class="toefl-logo">
-            <div class="toefl-score">
-                <span class="score-label">TOEFL iBT</span>
-                <span class="score-value">114</span>
-            </div>
-        </div>
-        <div class="toefl-breakdown">
-            <div class="score-item">
-                <span class="score-section">Reading</span>
-                <span class="score-number">30</span>
-            </div>
-            <div class="score-item">
-                <span class="score-section">Listening</span>
-                <span class="score-number">30</span>
-            </div>
-            <div class="score-item">
-                <span class="score-section">Speaking</span>
-                <span class="score-number">27</span>
-            </div>
-            <div class="score-item">
-                <span class="score-section">Writing</span>
-                <span class="score-number">27</span>
-            </div>
-        </div>
-    </div>
-</section>
+      <!-- Language -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:16px;width:100%;vertical-align:middle">
+            <h2>Language</h2>
+            <p>
+              <img src="assets/images/TOEFL.png" alt="TOEFL" style="height:30px;vertical-align:middle;margin-right:10px;">
+              <strong>TOEFL iBT:</strong> <span class="toefl-score">114</span>
+              <span class="toefl-breakdown"><span class="score-section">Reading</span><span class="score-number">30</span></span>
+              <span class="toefl-breakdown"><span class="score-section">Listening</span><span class="score-number">30</span></span>
+              <span class="toefl-breakdown"><span class="score-section">Speaking</span><span class="score-number">27</span></span>
+              <span class="toefl-breakdown"><span class="score-section">Writing</span><span class="score-number">27</span></span>
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
 
-<section class="section quote-section">
-    <div class="quote-card">
-        <div class="quote-mark">"</div>
+      <!-- Quote -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:16px;width:100%;vertical-align:middle">
         <blockquote>
             <p>Man is only a reed, the weakest in nature, but he is a thinking reed.</p>
-            <p class="quote-highlight">"All our dignity consists, then, in thought."</p>
+              <p><strong>"All our dignity consists, then, in thought."</strong></p>
+              <cite>— Blaise Pascal, <em>Pensées</em></cite>
         </blockquote>
-        <cite>— Blaise Pascal, <em>Pensées</em></cite>
-    </div>
-</section>
+          </td>
+        </tr>
+      </tbody></table>
+
+      <!-- Footer -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:16px;text-align:center;">
+            <p style="font-size:12px;color:#888;">
+              © 2025 Haolin Yang · Peking University
+              <br>
+              Website template from <a href="https://jonbarron.github.io/">Jon Barron</a>
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+
+    </td>
+  </tr>
+</tbody></table>
