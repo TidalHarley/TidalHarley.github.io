@@ -81,25 +81,29 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 h2 {
-  margin: 0;
+  margin: 0 0 8px 0;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
+  color: #1a2a4a;
 }
 
 .name {
@@ -132,4 +136,12 @@ h2 {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.news p {
+  font-size: 14px;
+}
+
+.news strong {
+  font-size: 14px;
 }
