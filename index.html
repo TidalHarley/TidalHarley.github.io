@@ -1,257 +1,199 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Haolin Yang | 杨昊霖">
+  <meta name="description" content="Haolin Yang, Peking University. Research on how agents perceive, reason, and interact in real-world scenarios across physical and digital environments, with a focus on long-horizon multimodal coding agents for developer productivity.">
+  <meta name="color-scheme" content="light">
+  <title>Haolin Yang | 杨昊霖</title>
+  <link rel="icon" href="assets/images/pku.png" type="image/png">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="navigation.js" defer></script>
+  <script src="interactions.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to main content</a>
+  <aside class="section-nav" aria-label="Page sections">
+    <div class="section-nav__inner">
+      <a class="section-nav__label" href="#about">Index</a>
+      <div class="section-nav__track">
+        <span class="section-nav__indicator" aria-hidden="true"></span>
+        <ol class="section-nav__list" id="section-nav-list">
+          <li class="section-nav__item"><a class="section-nav__link" href="#about">About</a></li>
+          <li class="section-nav__item"><a class="section-nav__link" href="#news">News</a></li>
+          <li class="section-nav__item"><a class="section-nav__link" href="#research">Research</a></li>
+          <li class="section-nav__item"><a class="section-nav__link" href="#education">Education</a></li>
+          <li class="section-nav__item"><a class="section-nav__link" href="#experience">Experience</a></li>
+          <li class="section-nav__item"><a class="section-nav__link" href="#honors">Honors</a></li>
+          <li class="section-nav__item"><a class="section-nav__link" href="#language">Language</a></li>
+          <li class="section-nav__item"><a class="section-nav__link" href="#beyond">Miscellaneous</a></li>
+        </ol>
+      </div>
+    </div>
+  </aside>
 
-    <title>Haolin Yang</title>
+  <main class="page-shell">
+    <section id="about" class="page-section profile" data-nav-section data-nav-label="About" tabindex="-1">
+      <div class="profile-copy">
+        <h1 class="name">Haolin Yang <span class="name-divider" aria-hidden="true">/</span> <span class="chinese-name" lang="zh-CN">杨昊霖</span></h1>
+        <p class="profile-intro">Hi there! I am a final-year undergraduate at <a href="https://www.pku.edu.cn/">Peking University</a>, in the Department of Intelligence Science and Technology within the <a href="https://eecs.pku.edu.cn/en/">School of Electronics Engineering and Computer Science (EECS)</a>, where I am fortunate to be advised by <a href="https://zsdonghao.github.io/">Prof. Hao Dong</a> and work closely with my senior collaborator <a href="https://lyx0501.github.io/">Yuxing Long</a>.</p>
+        <p class="profile-intro">My research is united by a common goal: understanding how <strong>agents perceive, reason, and interact in real-world scenarios across both physical and digital environments</strong>. This includes both <strong>embodied navigation agents</strong> and <strong>multimodal agents</strong>.</p>
+        <p class="profile-intro">I am currently interested in developing <strong>long-horizon agents powered by multimodal large language models</strong>, particularly <strong>coding agents that improve developer productivity</strong>.</p>
+        <details class="profile-details" lang="zh-CN">
+          <summary>中文简介</summary>
+          <div class="profile-details__content"><p>我是北京大学信息科学技术学院智能科学与技术系的大四本科生，师从董豪教授，并与 Yuxing Long 学长紧密合作。我的研究围绕一个共同目标展开：理解智能体如何在涵盖物理与数字环境的真实场景中感知、推理和交互，研究对象包括具身导航智能体和多模态智能体。目前，我尤其关注基于多模态大语言模型的长程智能体，特别是能够提升开发效率的编程智能体。</p></div>
+        </details>
+        <div class="profile-links" aria-label="Contact and profiles">
+          <a class="profile-link" href="mailto:harley_yang@stu.pku.edu.cn"><img src="assets/files/icon/email.png" width="22" height="22" alt="">Email</a>
+          <a class="profile-link" href="https://scholar.google.com/citations?user=qHD7JVAAAAAJ&amp;hl=zh-CN"><img src="assets/files/icon/google_scholar.png" width="22" height="22" alt="">Google Scholar</a>
+          <a class="profile-link" href="https://github.com/tidalharley"><img src="assets/files/icon/github.svg" width="22" height="22" alt="">GitHub</a>
+          <a class="profile-link" href="https://tidalharley.github.io/PKU-course-notes/index.html"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 5v15M12 5C8 2 3 4 3 4v15s5-2 9 1c4-3 9-1 9-1V4s-5-2-9 1Z"/></svg>Course Notes</a>
+          <a class="profile-link profile-link--rednote" href="https://www.xiaohongshu.com/user/profile/62c995570000000002003099"><img src="assets/files/icon/xiaohongshu.png" width="24" height="24" alt="">RedNote</a>
+        </div>
+      </div>
+      <figure class="profile-portrait">
+        <img class="avatar" src="assets/images/personal-portrait-oval.webp" alt="Haolin Yang holding a camera at Basilique Notre-Dame de Montréal" width="1000" height="1475" fetchpriority="high">
+        <figcaption class="portrait-caption">Photographed at<br><span lang="fr">Basilique Notre-Dame de Montréal</span></figcaption>
+      </figure>
+    </section>
 
-    <meta name="author" content="Haolin Yang">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
-  </head>
+    <section id="news" class="page-section news-section" data-nav-section tabindex="-1">
+      <header class="section-heading"><h2 class="section-title">News</h2></header>
+      <ul class="news-list">
+        <li><time datetime="2026-08">Aug 2026</time><p>One paper got accepted to <strong>EMNLP 2026.</strong></p></li>
+        <li><time datetime="2026-07">Jul 2026</time><p>Two papers got accepted to <strong>ACMMM 2026!</strong></p></li>
+        <li><time datetime="2026-01">Jan 2026</time><p><em>NavSpace: How Navigation Agents Follow Spatial Intelligence Instructions</em> got accepted to <strong>ICRA 2026!</strong></p></li>
+      </ul>
+      <details class="news-archive">
+        <summary>More updates</summary>
+        <ul class="news-list">
+          <li><time datetime="2026-04">Apr 2026</time><p>Two papers submitted to ACMMM 2026.</p></li>
+          <li><time datetime="2025-09">Sep 2025</time><p>Submitted <em>NavSpace: How Navigation Agents Follow Spatial Intelligence Instructions</em> to ICRA 2026.</p></li>
+        </ul>
+      </details>
+    </section>
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px 28px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:58%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Haolin Yang (杨昊霖)
-                </p>
-                <p>
-                  Hi there! I am a final-year undergraduate at <a href="https://www.pku.edu.cn/">Peking University</a>, majoring in Intelligence Science and Technology at the <a href="https://www.cis.pku.edu.cn/">School of Intelligence Science and Technology</a>, where I am fortunate to be advised by <a href="https://zsdonghao.github.io/">Prof. Hao Dong</a> and work closely with my senior collaborator <a href="https://lyx0501.github.io/">Yuxing Long</a>.
-                </p>
-                <p>
-                  My research centers on <strong>embodied intelligence</strong> and <strong>multimodal comprehension</strong>, with a focus on <strong>vision-language navigation</strong> and <strong>spatial intelligence</strong>.
-                </p>
-                <p>
-                  I am currently interested in <strong>multimodal large language models for developer productivity</strong>, particularly <strong>LLM-based coding agents</strong>.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:harley_yang@stu.pku.edu.cn">Email</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/tidalharley">GitHub</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=qHD7JVAAAAAJ&hl=zh-CN">Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://tidalharley.github.io/PKU-course-notes/index.html">Course Notes</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:42%;max-width:42%">
-                <a href="assets/images/resume.jpg"><img style="width:100%;max-width:100%;border-radius: 12px;box-shadow:0 2px 10px rgba(0,0,0,0.18);" alt="profile photo" src="assets/images/resume.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td class="news" style="padding:16px;width:100%;vertical-align:middle">
-                <h2>News</h2>
-                <p>
-                  <strong>2026-07</strong> &nbsp; Two papers got accepted to ACMMM 2026!
-                </p>
-                <p>
-                  <strong>2026-04</strong> &nbsp; Two papers submitted to ACMMM 2026.
-                </p>
-                <p>
-                  <strong>2026-01</strong> &nbsp; NavSpace: How Navigation Agents Follow Spatial Intelligence Instructions Got Accepted to ICRA 2026!
-                </p>
-                <p>
-                  <strong>2025-09</strong> &nbsp; Submitted NavSpace: How Navigation Agents Follow Spatial Intelligence Instructions to ICRA 2026.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 18px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <section id="research" class="page-section research-section" data-nav-section data-nav-label="Research" tabindex="-1">
+      <header class="section-heading research-heading">
+        <h2 class="section-title" id="research-heading">All Research Papers</h2>
+        <button class="research-toggle" id="research-toggle" type="button" aria-controls="research-papers" aria-expanded="false" hidden>All Research Papers</button>
+      </header>
+      <p class="paper-meta-note">* Equal contribution &nbsp; † Corresponding author</p>
+      <p class="sr-only" id="research-status" role="status" aria-live="polite"></p>
+      <div id="research-papers">
+        <article class="paper-row" data-highlight="false" aria-labelledby="cypherturn-title">
+          <a class="paper-figure" href="assets/images/cypherturn.png" data-figure data-caption="CYPHERTURN — Single-turn queries versus conversational, chain-dependent sessions" aria-label="Enlarge the CYPHERTURN overview figure"><img src="assets/images/cypherturn.png" alt="CYPHERTURN compares isolated single-turn graph queries with conversational turns grounded in previous results" width="1603" height="1384" loading="lazy"></a>
+          <div class="paper-content">
+            <h3 class="papertitle" id="cypherturn-title">CYPHERTURN: A Multi-Turn Benchmark for Conversational Text-to-Cypher Evaluation and the Autonomy Divergence</h3>
+            <p class="authors">Yuzhe Zhang, Weijie Zhu, <span class="author-self">Haolin Yang</span>, Ziyun Zhang, Xianwei Xue, Mengke Chen, Qiutong Pan, Huaqian Cai†</p>
+            <p class="venue-full">Conference on Empirical Methods in Natural Language Processing (EMNLP) 2026</p>
+            <p class="paper-description">A conversational Text-to-Cypher benchmark that evaluates cross-turn reasoning and error management under guided and autonomous agentic protocols.</p>
+            <div class="paper-links-group">
+              <a class="link-with-icon" href="https://github.com/BarryQ/CypherTurn"><img src="assets/files/icon/github.svg" width="20" height="20" alt="">Code</a>
+            </div>
+          </div>
+        </article>
 
-<tr>
-  <td style="padding:16px;width:32%;vertical-align:top">
-    <img src='assets/images/VTInstructor.png' style="width:100%;max-width:230px;border-radius:8px;box-shadow:0 1px 5px rgba(0,0,0,0.15);">
-  </td>
-  <td style="padding:16px 10px;width:68%;vertical-align:top;line-height:1.75">
-    <span class="papertitle">VTInstructor: Visual Trajectory Prompting for Navigation Instruction Generation in Continuous Environments</span>
-    <br>
-    <strong>Haolin Yang</strong>*, Yuxing Long*, Zihan Yang*, Hao Dong&dagger;
-    <br>
-    <em>ACM International Conference on Multimedia (ACMMM) 2026</em>
-    <br>
-    <a href="https://github.com/TidalHarley">Paper</a> /
-    <a href="https://github.com/TidalHarley">Project</a> /
-    <a href="https://github.com/TidalHarley">Code</a>
-    <p style="margin-top:10px">The first and SoTA VLN instruction generation framework for continuous environments.</p>
-  </td>
-</tr>
+        <article class="paper-row highlight-paper" data-highlight="true" aria-labelledby="vti-title">
+          <a class="paper-figure" href="assets/images/vtinstructor-teaser.png" data-figure data-caption="VTInstructor — Visual Trajectory Prompting" aria-label="Enlarge the VTInstructor overview figure"><img src="assets/images/vtinstructor-teaser.webp" alt="Comparison of panoramic, knowledge-augmented, 3D-enhanced and visual trajectory instruction generation" width="1400" height="487" loading="lazy"></a>
+          <div class="paper-content">
+            <h3 class="papertitle" id="vti-title"><a href="https://tidalharley.github.io/VTInstructor/">VTInstructor: Visual Trajectory Prompting for Navigation Instruction Generation in Continuous Environments</a></h3>
+            <p class="authors"><span class="author-self">Haolin Yang</span>*, Yuxing Long*, Zihan Yang*, Hao Dong†</p>
+            <p class="venue-full">ACM International Conference on Multimedia (ACMMM) 2026</p>
+            <p class="paper-description">The first and SoTA VLN instruction generation framework for continuous environments.</p>
+            <div class="paper-links-group">
+              <a class="link-with-icon" href="https://arxiv.org/abs/2608.15284"><img src="assets/files/icon/arxiv.svg" width="20" height="20" alt="">Paper</a>
+              <a class="link-with-icon" href="https://tidalharley.github.io/VTInstructor/"><img src="assets/files/icon/project-page.svg" width="20" height="20" alt="">Project</a>
+              <a class="link-with-icon" href="https://github.com/TidalHarley/VTInstructor"><img src="assets/files/icon/github.svg" width="20" height="20" alt="">Code</a>
+              <a class="link-with-icon" href="https://huggingface.co/TidalYang/VTInstructor-8b" aria-label="VTInstructor-8b model on Hugging Face"><img src="assets/files/icon/huggingface.svg" width="20" height="20" alt="">Hugging Face</a>
+            </div>
+          </div>
+        </article>
 
-<tr>
-  <td style="padding:16px;width:32%;vertical-align:top">
-    <img src='assets/images/Scaling%20Manual-Grounded%20Appliance.png' style="width:100%;max-width:230px;border-radius:8px;box-shadow:0 1px 5px rgba(0,0,0,0.15);">
-  </td>
-  <td style="padding:16px 10px;width:68%;vertical-align:top;line-height:1.75">
-    <span class="papertitle">Scaling Manual-Grounded Appliance Manipulation with Data Synthesis and Unified Planning</span>
-    <br>
-    Yuxing Long, Lei Kang, Ziyan Yu, Yuzheng Gao, Bin Cheng, Jiyao Zhang, Xiaoqi Li, <strong>Haolin Yang</strong>, Dongjiang Li, Hui Shen, Hao Dong&dagger;
-    <br>
-    <em>ACM International Conference on Multimedia (ACMMM) 2026</em>
-    <br>
-    <a href="https://github.com/TidalHarley">Paper</a> /
-    <a href="https://github.com/TidalHarley">Project</a> /
-    <a href="https://github.com/TidalHarley">Code</a>
-  </td>
-</tr>
+        <article class="paper-row" data-highlight="false" aria-labelledby="appliance-title">
+          <a class="paper-figure" href="assets/images/appliance.png" data-figure data-caption="Scaling Manual-Grounded Appliance Manipulation" aria-label="Enlarge the appliance manipulation overview figure"><img src="assets/images/appliance.png" alt="Overview of manual-grounded appliance manipulation with data synthesis and unified planning" width="954" height="490" loading="lazy"></a>
+          <div class="paper-content">
+            <h3 class="papertitle" id="appliance-title">Scaling Manual-Grounded Appliance Manipulation with Data Synthesis and Unified Planning</h3>
+            <p class="authors">Yuxing Long, Lei Kang, Ziyan Yu, Yuzheng Gao, Bin Cheng, Jiyao Zhang, Xiaoqi Li, <span class="author-self">Haolin Yang</span>, Dongjiang Li, Hui Shen, Hao Dong†</p>
+            <p class="venue-full">ACM International Conference on Multimedia (ACMMM) 2026</p>
+          </div>
+        </article>
 
-<tr>
-  <td style="padding:16px;width:32%;vertical-align:top">
-    <img src='assets/images/navspace.png' style="width:100%;max-width:230px;border-radius:8px;box-shadow:0 1px 5px rgba(0,0,0,0.15);">
-  </td>
-  <td style="padding:16px 10px;width:68%;vertical-align:top;line-height:1.75">
-    <span class="papertitle">NavSpace: How Navigation Agents Follow Spatial Intelligence Instructions</span>
-    <br>
-    <strong>Haolin Yang</strong>*, Yuxing Long*, Zhuoyuan Yu, Zihan Yang, Minghan Wang, Jiapeng Xu, Yihan Wang, Ziyan Yu, Wenzhe Cai, Lei Kang, Hao Dong&dagger;
-    <br>
-    <em>International Conference on Robotics and Automation (ICRA) 2026</em>
-    <br>
-    <a href="https://arxiv.org/abs/2510.08173">Paper</a> /
-    <a href="https://navspace.github.io/">Project</a> /
-    <a href="https://github.com/TidalHarley/NavSpace">Code</a> /
-    <a href="https://xinwen.bjd.com.cn/content/s698f1a0ee4b0cd719e9da64a.html">北京日报</a>
-    <p style="margin-top:10px">The first benchmark and model for spatial intelligence in Embodied Navigation.</p>
-  </td>
-</tr>
+        <article class="paper-row highlight-paper" data-highlight="true" aria-labelledby="navspace-title">
+          <a class="paper-figure" href="assets/images/navspace.png" data-figure data-caption="NavSpace — Spatial Intelligence in Embodied Navigation" aria-label="Enlarge the NavSpace overview figure"><img src="assets/images/navspace.png" alt="NavSpace benchmark with egocentric observations, spatial instructions, and a 3D indoor scene" width="1038" height="384" loading="lazy"></a>
+          <div class="paper-content">
+            <h3 class="papertitle" id="navspace-title"><a href="https://navspace.github.io/">NavSpace: How Navigation Agents Follow Spatial Intelligence Instructions</a></h3>
+            <p class="authors"><span class="author-self">Haolin Yang</span>*, Yuxing Long*, Zhuoyuan Yu, Zihan Yang, Minghan Wang, Jiapeng Xu, Yihan Wang, Ziyan Yu, Wenzhe Cai, Lei Kang, Hao Dong†</p>
+            <p class="venue-full">International Conference on Robotics and Automation (ICRA) 2026</p>
+            <p class="paper-description">The first benchmark and model for spatial intelligence in Embodied Navigation.</p>
+            <div class="paper-links-group">
+              <a class="link-with-icon" href="https://arxiv.org/abs/2510.08173"><img src="assets/files/icon/arxiv.svg" width="20" height="20" alt="">Paper</a>
+              <a class="link-with-icon" href="https://navspace.github.io/"><img src="assets/files/icon/project-page.svg" width="20" height="20" alt="">Project</a>
+              <a class="link-with-icon" href="https://github.com/TidalHarley/NavSpace"><img src="assets/files/icon/github.svg" width="20" height="20" alt="">Code</a>
+              <a class="link-with-icon" href="https://huggingface.co/TidalYang/SNav-7B" aria-label="SNav-7B model on Hugging Face"><img src="assets/files/icon/huggingface.svg" width="20" height="20" alt="">Hugging Face</a>
+              <a class="link-with-icon" href="https://xinwen.bjd.com.cn/content/s698f1a0ee4b0cd719e9da64a.html"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg><span lang="zh-CN">北京日报</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-          </tbody></table>
+    <section id="education" class="page-section" data-nav-section tabindex="-1">
+      <header class="section-heading"><h2 class="section-title">Education</h2></header>
+      <div class="institution-row education-row">
+        <a class="institution-logo" href="https://www.pku.edu.cn/" aria-label="Peking University"><img src="assets/images/pku.png" alt="Peking University emblem" width="68" height="68" loading="lazy"></a>
+        <div class="institution-copy"><h3><a href="https://www.pku.edu.cn/">Peking University</a></h3><p>B.S. in Intelligence Science and Technology</p><p class="muted">Department of Intelligence Science and Technology</p><p class="muted"><a href="https://eecs.pku.edu.cn/en/">School of Electronics Engineering and Computer Science (EECS)</a></p></div>
+        <p class="institution-date"><time datetime="2023-09">Sep 2023</time> – <time datetime="2027-07">Jul 2027</time><span>Expected</span></p>
+      </div>
+    </section>
 
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Education</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 14px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:22%;vertical-align:middle">
-                <img src='assets/images/PKU.png' width="100">
-              </td>
-              <td style="padding:8px 12px;width:78%;vertical-align:middle;line-height:1.6">
-                <strong><a href="https://eecs.pku.edu.cn/">Peking University</a></strong>
-                <br>
-                B.S. in Intelligence Science and Technology, School of Intelligence Science and Technology
-                <br>
-                2023.9 &ndash; 2027.7 (Expected)
-              </td>
-            </tr>
-          </tbody></table>
+    <section id="experience" class="page-section" data-nav-section tabindex="-1">
+      <header class="section-heading"><h2 class="section-title">Experience</h2></header>
+      <div class="experience-list">
+        <div class="institution-row"><div class="institution-logo institution-logo--wide"><img src="assets/images/microsoft.png" alt="Microsoft" width="110" height="24" loading="lazy"></div><div class="institution-copy"><h3>Microsoft Research Asia (MSRA)</h3><p>Research Intern · GenAI group</p></div><p class="institution-date"><time datetime="2026-06">Jun 2026</time> – Present</p></div>
+        <div class="institution-row"><div class="institution-logo"><img src="assets/images/agibot.png" alt="Zhiyuan Robotics" width="90" height="60" loading="lazy"></div><div class="institution-copy"><h3>Zhiyuan Robotics Co., Ltd.</h3><p>Research Intern · PKU Joint Laboratory</p></div><p class="institution-date"><time datetime="2025-01">Jan 2025</time> – <time datetime="2026-06">Jun 2026</time></p></div>
+        <div class="institution-row"><div class="institution-logo"><img src="assets/images/zai.png" alt="Z.ai" width="64" height="64" loading="lazy"></div><div class="institution-copy"><h3>Zhipu AI (Z.ai)</h3><p>AI Application Engineer Intern</p></div><p class="institution-date"><time datetime="2025-07">Jul 2025</time> – <time datetime="2025-09">Sep 2025</time></p></div>
+      </div>
+    </section>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Experience</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:25%;vertical-align:middle">
-                <img src='assets/images/Microsoft.png' width="110">
-              </td>
-              <td style="padding:8px;width:75%;vertical-align:middle">
-                <strong>Microsoft Research Asia (MSRA)</strong>
-                <br>
-                Research Intern
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:16px;width:25%;vertical-align:middle">
-                <img src='assets/images/Agibot.png' width="100">
-              </td>
-              <td style="padding:8px;width:75%;vertical-align:middle">
-                <strong>Zhiyuan Robotics Co., Ltd.</strong>
-                <br>
-                Research Intern · PKU Joint Laboratory
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:16px;width:25%;vertical-align:middle">
-                <img src='assets/images/Zai.png' width="100">
-              </td>
-              <td style="padding:8px;width:75%;vertical-align:middle">
-                <strong>Zhipu AI (Z.ai)</strong>
-                <br>
-                AI Application Engineer Intern
-              </td>
-            </tr>
-          </tbody></table>
+    <section id="honors" class="page-section" data-nav-section data-nav-label="Honors" tabindex="-1">
+      <header class="section-heading"><h2 class="section-title">Honors &amp; Awards</h2></header>
+      <ul class="awards-list">
+        <li><span class="award-year">2025–26</span><span>Xiaomi First-Class Scholarship (10,000 CNY, ranked 1st in class)</span></li>
+        <li><span class="award-year">2025–26</span><span>Model Student of Merit (top 2% of all candidates)</span></li>
+        <li><span class="award-year">2024–25</span><span>Huawei Scholarship (top 20% of all candidates)</span></li>
+        <li><span class="award-year">2024–25</span><span>Peking University Outstanding Research Award</span></li>
+        <li><span class="award-year">2023–24</span><span>Shenzhen Stock Exchange Scholarship (top 20% of all candidates)</span></li>
+        <li><span class="award-year">2023–24</span><span>Peking University Outstanding Research Award</span></li>
+      </ul>
+    </section>
 
+    <section id="language" class="page-section" data-nav-section tabindex="-1">
+      <header class="section-heading"><h2 class="section-title">Language</h2></header>
+      <p class="language-score"><strong>TOEFL iBT: 114</strong> <span>(Reading: 30, Listening: 30, Speaking: 27, Writing: 27)</span></p>
+    </section>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Honors & Awards</h2>
-                <p>
-                  <strong>2024-25</strong> &nbsp; Huawei Scholarship<br>
-                  <strong>2024-25</strong> &nbsp; Peking University Excellent Research Award<br>
-                  <strong>2023-24</strong> &nbsp; Shenzhen Stock Exchange Scholarship<br>
-                  <strong>2023-24</strong> &nbsp; Peking University Excellent Research Award
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+    <section id="beyond" class="page-section" data-nav-section data-nav-label="Miscellaneous" tabindex="-1">
+      <header class="section-heading"><h2 class="section-title">Miscellaneous</h2></header>
+      <div class="beyond-layout">
+        <div>
+          <p>Beyond research, I enjoy traveling, working out, basketball, and photography. Exploring new places and staying active help me recharge outside the lab and keep me curious and grounded.</p>
+          <p>I am especially drawn to fitness because I see a healthy body as the foundation for everything else. The gradual progress that comes from consistent effort gives me a reassuring sense of stability — a constant amid change.</p>
+          <p>I've played basketball since elementary school, and Stephen Curry is my favorite player. He showed me that basketball is about skill, not just height, and I admire his humility as much as his game. Inspired by him, I helped my team win our high school basketball league championship as a starting player. Beyond competition, basketball has given me lifelong friendships and a lasting love of sport.</p>
+          <p>Beyond sports, I also enjoy films and TV series. My all-time favorite series is <em>Better Call Saul</em> — in Saul Goodman's words, “It's showtime, folks!”</p>
+        </div>
+      </div>
+      <p class="film-note">When it comes to cinema, Christopher Nolan is my favorite director. To me, his films are something to feel, rather than simply remember. I love their immersive visual experience, the restraint in his storytelling, and his reflections on civilization and the choices that shape it.</p>
+      <blockquote class="personal-quote"><p>“Man is only a reed, the weakest in nature, but he is a thinking reed. All our dignity consists, then, in thought.”</p><cite>— Blaise Pascal, <em>Pensées</em></cite></blockquote>
+    </section>
 
+    <footer class="site-footer"><a class="back-top" href="#about" aria-label="Back to top">↑</a></footer>
+  </main>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Language</h2>
-                <p>
-                  <strong>TOEFL iBT:</strong> 114 (Reading: 30, Listening: 30, Speaking: 27, Writing: 27)
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Miscellaneous</h2>
-                <table style="width:100%;border:0px;border-collapse:separate;"><tbody><tr>
-                  <td style="width:66%;vertical-align:middle;line-height:1.75;padding-right:16px">
-                    Beyond research, I have a wide range of hobbies &mdash; traveling, working out, basketball, and photography. Exploring new places and staying active are how I recharge outside the lab, and they keep me curious and grounded. I'm also an avid binge-watcher of TV series: my all-time favorite is <em>Better Call Saul</em> &mdash; I can never resist a well-crafted story about flawed, fascinating characters.
-                  </td>
-                  <td style="width:34%;vertical-align:middle">
-                    <img src='assets/images/bettercallsaul.png' style="width:100%;max-width:230px;border-radius:8px;box-shadow:0 1px 5px rgba(0,0,0,0.15);">
-                  </td>
-                </tr></tbody></table>
-              </td>
-            </tr>
-          </tbody></table>
-
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <p style="font-style: italic; color: #666;">
-                  "Man is only a reed, the weakest in nature, but he is a thinking reed. All our dignity consists, then, in thought."
-                  <br>
-                  — Blaise Pascal, <em>Pensées</em>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Website template from <a href="https://jonbarron.github.io/">Jon Barron</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </tbody></table>
-  </body>
+  <dialog id="figure-dialog" class="figure-dialog" aria-labelledby="figure-caption">
+    <form method="dialog"><button class="dialog-close" aria-label="Close figure">×</button></form>
+    <figure><img id="figure-image" alt=""><figcaption id="figure-caption"></figcaption></figure>
+  </dialog>
+</body>
 </html>

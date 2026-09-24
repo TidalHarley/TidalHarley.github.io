@@ -18,6 +18,12 @@ Thumbs.db
 *.swp
 *.swo
 
+# Local previews and unpublished material
+/preview/
+/assets/papers/cypherturn.pdf
+/personal-image.jpg
+/odessey.jpg
+
 # git add .
 # git commit -m "你的更新说明"
 # git push
